@@ -1,0 +1,52 @@
+.news {
+    .news-item {
+        padding: 15px;
+        border: 1px solid $border-color;
+
+        .image {
+            a {
+                display: block;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .text {
+            .tags {
+                margin: 15px 0;
+
+                a {
+                    display: inline-block;
+                    border: 1px solid $border-color;
+                    padding: 0px 5px;
+                    font-size: 12px;
+                    color: $primary-color;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                }
+            }
+
+            h4 {
+                a {
+                    font-size: 16px;
+                    color: $bColor;
+                    font-weight: 500;
+                    transition: $transition;
+
+                    &:hover {
+                        color: $hover-color;
+                    }
+                }
+            }
+
+            span {
+                display: block;
+                margin-top: 20px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}

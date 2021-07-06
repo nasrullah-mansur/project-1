@@ -1,0 +1,146 @@
+.header {
+    position: relative;
+    background-color: $primary-color;
+    padding: 15px 0;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo img {
+            max-width: 140px;
+        }
+
+        .location {
+            button {
+                display: flex;
+                align-items: center;
+                padding: 5px 8px;
+                border-radius: 20px;
+                text-transform: capitalize;
+                background-color: $white;
+                border: 0;
+
+                i {
+                    margin: 0 5px;
+                }
+            }
+        }
+
+        .search {
+            .input-group-prepend {
+                .input-group-text {
+                    background-color: $bgOne;
+                    border-radius: 20px 0 0 20px;
+                }
+            }
+
+            form {
+                input {
+                    width: 320px;
+                }
+            }
+
+            .btn {
+                background-color: $bgOne;
+                border-radius: 0 20px 20px 0;
+                font-size: 14px;
+                font-weight: 600;
+                color: $white;
+            }
+        }
+
+        .register {
+            a {
+                padding: 5px;
+                margin-left: 10px;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: $white;
+            }
+        }
+    }
+
+    .search-mega {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        z-index: 9;
+        width: 730px;
+        padding: 25px 50px;
+        border-radius: 25px;
+        background-color: $white;
+        opacity: 0;
+        visibility: hidden;
+
+        .heading {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid $primary-color;
+
+            .search {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    top: 11px;
+                    left: 16px;
+                }
+
+                input {
+                    padding: 5px 15px 5px 35px;
+                    border-radius: 20px;
+                    border: 1px solid $border-color;
+                    background-color: transparent;
+                }
+            }
+
+            a {
+                margin-left: 30px;
+                color: $bColor;
+                transition: $transition;
+
+                &:hover {
+                    color: $hover-color;
+                }
+            }
+        }
+
+        .body {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    width: calc(100% / 3);
+                    margin-bottom: 10px;
+
+                    a {
+                        color: $bColor;
+                        text-transform: capitalize;
+
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                }
+            }
+
+            .more-btn {
+                display: inline-block;
+                margin-top: 20px;
+                color: $primary-color;
+                font-weight: 500;
+                text-transform: capitalize;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.category {
+    margin: 15px 0;
+
+    .category-item {
+        text-align: center;
+
+        a {
+            display: inline-block;
+            color: $bColor;
+
+            img {
+                max-width: 25px;
+            }
+
+            span {
+                display: inline-block;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 14px;
+                opacity: .5;
+            }
+
+            &:hover span {
+                opacity: 1;
+            }
+        }
+    }
+}
