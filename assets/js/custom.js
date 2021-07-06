@@ -1,6 +1,11 @@
 $(document).ready(function() {
     "use strict";
 
+    $('#location-search').on('click', function() {
+        $(this).next('.search-mega').toggle();
+    })
+
+
 // slide-item-one;
 if($('.slide-item-one').length > 0) {
     $('.slide-item-one').slick({

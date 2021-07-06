@@ -72,8 +72,7 @@
         padding: 25px 50px;
         border-radius: 25px;
         background-color: $white;
-        opacity: 0;
-        visibility: hidden;
+        display: none;
 
         .heading {
             display: flex;
