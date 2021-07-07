@@ -1533,3 +1533,51 @@ ul {
 .account-wrapper .faq-text .card-header .btn-link.collapsed {
   color: #343a40;
 }
+
+.account-wrapper .account-text label {
+  font-weight: 600;
+}
+
+.account-wrapper .account-text .mail-preferences {
+  display: none;
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #F2F2F2;
+  font-weight: 600;
+}
+
+.account-wrapper .account-text .mail-preferences p {
+  text-align-last: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px !important;
+}
+
+.account-wrapper .account-text .mail-preferences ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.account-wrapper .account-text .mail-preferences ul li {
+  width: calc(100% / 3);
+}
+
+.account-wrapper .account-text .mail-preferences .form-check {
+  margin-bottom: 0;
+}
+
+.account-wrapper .account-text button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background-color: #00937F;
+  color: #ffffff;
+  border: 0;
+}

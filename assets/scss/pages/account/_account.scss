@@ -83,4 +83,52 @@
             }
         }
     }
+
+    // Profile;
+    .account-text {
+        label {
+            font-weight: 600;
+        }
+
+        .mail-preferences {
+            display: none;
+            text-align: left;
+            padding: 15px;
+            margin-top: 10px;
+            background-color: $bgTwo;
+            font-weight: 600;
+    
+            p {
+                text-align-last: left;
+                margin-top: 10px;
+                margin-bottom: 0;
+                font-size: 14px !important;
+            }
+    
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+    
+                li {
+                    width: calc(100% / 3);
+                }
+            }
+    
+            .form-check {
+                margin-bottom: 0;
+            }
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 5px;
+            text-transform: capitalize;
+            border-radius: 5px;
+            background-color: $primary-color;
+            color: $white;
+            border: 0;
+        }
+    }
 }
