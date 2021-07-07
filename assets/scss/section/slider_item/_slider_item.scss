@@ -91,3 +91,26 @@
         }
     }
 }
+
+.products-slide {
+    .slick-arrow {
+        position: absolute;
+        top: 40%;
+        left: -30px;
+        transform: translateY(-50%);
+        z-index: 9;
+        background-color: transparent;
+        border: 0;
+        font-size: 50px;
+        opacity: .3;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    .slick-arrow.slick-next {
+        left: auto;
+        right: -30px;
+    }
+}

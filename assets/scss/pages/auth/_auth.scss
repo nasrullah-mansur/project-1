@@ -1,0 +1,153 @@
+.auth-wrapper {
+    min-height: 100vh;
+    background-color: $bgTwo;
+    
+    .auth-content {
+        .title {
+            margin-top: 35px;
+            text-align: center;
+            
+            img {
+                width: 175px;
+            }
+        }
+        
+        .body {
+            padding: 30px 150px;
+            margin: 30px auto;
+            background-color: $white;
+
+            &.register {
+                padding: 30px 50px;
+            }
+
+            h1 {
+                font-weight: 600;
+                text-align: center;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .form-check label {
+                font-weight: 600;
+            }
+
+            .forgot {
+                display: inline-block;
+                margin-bottom: 30px;
+                font-size: 14px;
+                font-weight: 500;
+                color: $primary-color;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .action {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+
+                button {
+                    background-color: transparent;
+                    padding: 5px 35px;
+                    border: 1.5px solid $primary-color;
+                    border-radius: 20px;
+                    transition: $transition;
+                    font-weight: 600;
+                    color: $primary-color;
+
+                    &:hover {
+                        background-color: $primary-color;
+                        color: $white;
+                    }
+                }
+
+                a {
+                    padding: 5px;
+                    margin-left: 20px;
+                    color: $primary-color;
+                    font-weight: 600;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .register-btn {
+                display: inline-block;
+                margin: 15px 0 30px;
+                font-weight: 600;
+                padding: 5px 30px;
+                border: 1.5px solid $hover-color;
+                border-radius: 20px;
+                color: $hover-color;
+                transition: $transition;
+                background-color: transparent;
+
+                &:hover {
+                    background-color: $hover-color;
+                    color: $white;
+                }
+            }
+
+            .copyright {
+                font-size: 14px;
+                margin-top: 30px;
+                margin-bottom: 0;
+            }
+        }
+
+        .content-footer {
+            text-align: center;
+
+            h4 {
+                font-size: 22px;
+                font-weight: 500;
+                color: $primary-color;
+            }
+
+            a {
+                font-size: 22px;
+                padding: 5px;
+                margin: 0 3px;
+                color: $primary-color;
+            }
+        }
+    }
+
+    .mail-preferences {
+        display: none;
+        text-align: left;
+        padding: 15px;
+        margin-top: 10px;
+        background-color: $bgTwo;
+        font-weight: 600;
+
+        p {
+            text-align-last: left;
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-size: 14px !important;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                width: calc(100% / 3);
+            }
+        }
+
+        .form-check {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="auth-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 m-auto">
+                <div class="auth-content">
+                    <div class="title">
+                        <a href="#">
+                            <img src="assets/images/logo-2.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="body register">
+                        <h1>Register</h1>
+                        <p>Register to your account</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="email" class="form-control" id="username" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="c-email">Confirm Email</label>
+                                <input type="email" class="form-control" id="c-email" placeholder="Confirm Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="c-password">Confirm Password</label>
+                                <input type="password" class="form-control" id="c-password" placeholder="Confirm Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="my-1 mr-2" for="province">Province</label>
+                                <select class="custom-select my-1 mr-sm-2" id="province">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="my-1 mr-2" for="region">Region</label>
+                                <select class="custom-select my-1 mr-sm-2" id="region">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+
+                            <div class="text-left">
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="business">
+                                    <label class="form-check-label" for="business">Register As Business</label>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="agree">
+                                    <label class="form-check-label" for="agree">I agree to receive offers for cannabis deals and emails regarding contests and giveaways from Leafythings.
+                                        <br>
+                                        I understand that I can unsubscribe at any time.
+                                    </label>
+                                </div>
+                               
+                                <div class="mail-preferences" id="mail-preferences">
+                                    <p class="mt-0">Mail Preferences (select all that apply)</p>
+                                    <p>Whats your preferred method of consuming cannabis?</p>
+                                    <ul>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-1">
+                                                <label class="form-check-label" for="item-1">One</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-2">
+                                                <label class="form-check-label" for="item-2">Two</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-3">
+                                                <label class="form-check-label" for="item-3">Three</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-4">
+                                                <label class="form-check-label" for="item-4">Four</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-5">
+                                                <label class="form-check-label" for="item-5">Five</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-6">
+                                                <label class="form-check-label" for="item-6">Six</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-7">
+                                                <label class="form-check-label" for="item-7">Seven</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-8">
+                                                <label class="form-check-label" for="item-8">Eight</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-9">
+                                                <label class="form-check-label" for="item-9">Nine</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p>What do you typically use cannabis for?</p>
+                                    <ul>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-01">
+                                                <label class="form-check-label" for="item-01">One</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-02">
+                                                <label class="form-check-label" for="item-02">Two</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-03">
+                                                <label class="form-check-label" for="item-03">Three</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-04">
+                                                <label class="form-check-label" for="item-04">Four</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-05">
+                                                <label class="form-check-label" for="item-05">Five</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-06">
+                                                <label class="form-check-label" for="item-06">Six</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-07">
+                                                <label class="form-check-label" for="item-07">Seven</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-08">
+                                                <label class="form-check-label" for="item-08">Eight</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="item-09">
+                                                <label class="form-check-label" for="item-09">Nine</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <button href="#" class="register-btn">Register Now</button>
+                                </div>
+
+                                <p class="copyright text-left">By accessing our site, you accept our terms and <a href="#">privacy policy.</a></p>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="content-footer">
+                        <h4>Let's be Buds</h4>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer start -->
+<footer class="footer mt-0">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/images/logo-2.png" alt="logo">
+            </a>
+            <br>
+            <a href="#" data-toggle="modal" data-target="#issue" class="report">report an issue</a>
+        </div>
+        <nav class="list">
+            <ul class="justify-content-around">
+                <li><a href="#">All Categories</a></li>
+                <li><a href="#">Mail Orders</a></li>
+                <li><a href="#">Deliveries</a></li>
+                <li><a href="#">Dispensaries</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
+
+        <div class="app">
+            <a href="#">
+                <img src="assets/images/app-1.png" alt="app">
+            </a>
+            <a href="#">
+                <img src="assets/images/app-2.png" alt="app">
+            </a>
+        </div>
+        <nav class="list">
+            <ul class="justify-content-center">
+                <li><a href="#">All Categories</a></li>
+                <li><a href="#">Mail Orders</a></li>
+                <li><a href="#">Deliveries</a></li>
+                <li><a href="#">Dispensaries</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+        <div class="links">
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+            <a href="#">Weed Delivery Toronto</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; Leafythings Canada 2021. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<!-- Issue modal start -->
+<div class="modal fade" id="issue" tabindex="-1" aria-labelledby="issue-title" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="issue-title">Report an Issue</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+            <label for="issue_1">What is the issue?</label>
+            <textarea class="form-control" id="issue_1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="issue_2">What were you doing when the error occurred?</label>
+            <textarea class="form-control" id="issue_2" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="issue_3">What page were you viewing?</label>
+            <textarea class="form-control" id="issue_3" rows="3"></textarea>
+          </div>
+          <h5>Contact information</h5>
+          <div class="form-group">
+            <label for="issue_name">Name</label>
+            <input type="email" class="form-control" id="issue_name" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="issue_email">Email</label>
+            <input type="email" class="form-control" id="issue_email" placeholder="name@example.com">
+          </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn">Send Report</button>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Issue modal end -->
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.2.2.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
