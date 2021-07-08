@@ -52,4 +52,14 @@ $(document).ready(function () {
             dots: true,
         });
     }
+
+    if($('.summernote').length > 0) {
+        $('.summernote').summernote({
+            height: 200,
+        });
+    }
+
+    // $('.select')
+    $('.select-2').select2();
 });
+

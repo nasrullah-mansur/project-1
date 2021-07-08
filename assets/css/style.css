@@ -124,6 +124,10 @@ button:focus {
   padding: 0 0 60px 0;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .pb-30 {
   padding-bottom: 30px;
 }
@@ -1580,4 +1584,185 @@ ul {
   background-color: #00937F;
   color: #ffffff;
   border: 0;
+}
+
+.account-wrapper .manage-product-text .add-btn {
+  display: block;
+  background-color: #00937F;
+  color: #ffffff;
+  padding: 5px 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  max-width: 500px;
+  border: 1px solid #343a40;
+  border-radius: 5px;
+}
+
+.account-wrapper .manage-product-text .item {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.account-wrapper .manage-product-text .item .image {
+  padding: 15px;
+  text-align: center;
+}
+
+.account-wrapper .manage-product-text .item .image h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.account-wrapper .manage-product-text .item .image p {
+  margin-bottom: 0;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.account-wrapper .manage-product-text .item .image span {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.account-wrapper .manage-product-text .item .image .stars {
+  margin-bottom: 5px;
+}
+
+.account-wrapper .manage-product-text .item .image .stars i {
+  font-size: 14px;
+}
+
+.account-wrapper .manage-product-text .item .image .stars .fill {
+  color: #ffd241;
+}
+
+.account-wrapper .manage-product-text .item .status-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+.account-wrapper .manage-product-text .item .status-text .status {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+}
+
+.account-wrapper .manage-product-text .item .status-text .status span {
+  display: block;
+}
+
+.account-wrapper .manage-product-text .item .status-text .status.warning span {
+  color: #dc3545;
+}
+
+.account-wrapper .manage-product-text .item .status-text .status.success span {
+  color: #00937F;
+}
+
+.account-wrapper .manage-product-text .item .status-text .update {
+  margin: 15px 0;
+}
+
+.account-wrapper .manage-product-text .item .status-text .update ul li span:first-child {
+  font-weight: 600;
+}
+
+.account-wrapper .manage-product-text .item .status-text .update ul li .des {
+  max-height: 140px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+}
+
+.account-wrapper .manage-product-text .item .status-text .update ul li .des p {
+  font-size: 14px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.account-wrapper .manage-product-text .item .status-text .action {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(130px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.account-wrapper .manage-product-text .item .status-text .action a {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #00937F;
+  color: #ffffff;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+}
+
+.account-wrapper .manage-product-text .item .status-text .action a i {
+  margin-right: 10px;
+}
+
+.account-wrapper .manage-product-text .item .status-text .action a:last-child {
+  grid-column: auto / span 2;
+  background-color: #dc3545;
+}
+
+.account-wrapper .add-business .image-previewer {
+  width: 120px;
+  height: 120px;
+}
+
+.account-wrapper .add-business .light-modal-content {
+  background-color: #00937F;
+}
+
+.account-wrapper .add-business form h2 {
+  color: #00937F;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.account-wrapper .add-business form h6 {
+  font-weight: 600;
+  margin-left: -20px;
+}
+
+.account-wrapper .add-business form label {
+  font-weight: 500;
+}
+
+.account-wrapper .add-business form .form-check label {
+  margin-right: 40px;
+}
+
+.account-wrapper .add-business form .submit-btn {
+  display: block;
+  width: 500px;
+  max-width: 500px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #00937F;
+  padding: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
