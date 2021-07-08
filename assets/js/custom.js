@@ -62,5 +62,17 @@ $(document).ready(function () {
     if($('.select-2').length > 0) {
         $('.select-2').select2();
     }
+
+    if($("#input").length > 0) {
+        $("#input").cropzee({
+            maxSize: [100, 100, 'px'],
+            minSize: [100, 100, 'px'],
+        });
+    }
+
+
+    $('[name="price"]').on('change', function() {
+        $('.pricing-area .per-unit, .pricing-area .per-weight').slideToggle();
+    })
 });
 

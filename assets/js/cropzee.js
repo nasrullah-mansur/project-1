@@ -1,6 +1,3 @@
-let cropzeeCanvasWidth = 200;
-let cropzeeCanvasHeight = 200;
-
 // gather all cropzee dependencies and append on webpage
 var dependencies =
     '<!-- light-modal -->'
@@ -45,7 +42,7 @@ jQuery.fn.extend({
         }
         if (!options.imageExtension) {
             options.imageExtension = 'image/jpeg';
-        }         
+        }
         if (!options.returnImageMode) {
             options.returnImageMode = 'data-url';
         }
@@ -182,7 +179,7 @@ jQuery.fn.extend({
                     + '<!-- light modal footer -->'
                     + '<div class="light-modal-footer" style="justify-content: space-between;">'
                         + '<div onclick="closeModal()" class="light-modal-close-btn" style="cursor: pointer;" aria-label="close">Cancel</div>'
-                        
+                        + '<div onclick="cropzeeRotateImage(`' + id + '`);" class="light-modal-close-btn" style="cursor: pointer;">Rotate 90deg</div>'
                         + '<div onclick="cropzeeCreateImage(`' + id + '`);" class="light-modal-close-btn" style="cursor: pointer;">Done</div>'
                     + '</div>'
                 + '</div>'
@@ -202,7 +199,7 @@ jQuery.fn.extend({
                 ctx.drawImage(img, 0, 0, cropzeeCanvasWidth, cropzeeCanvasHeight);
                 setTimeout(function(){
                     // the css-only modal is called via href see https://hunzaboy.github.io/Light-Modal/#
-                    window.location = window.location.href + "#cropzee-modal";
+                    window.location = window.location.pathname + "#cropzee-modal";
                     // function to trigger croppr.js on picture in modal
                     cropzeeTriggerCroppr();
                 }, 50);
@@ -273,13 +270,5 @@ jQuery.fn.extend({
 // function to close modal
 function closeModal() {
     $('#cropzee-modal').remove();
-    window.location = window.location.href + '#';
+    window.location = window.location.pathname + '#';
 }
-
-
-$(document).ready(function(){
-    $("#input").cropzee({
-        maxSize: [100, 100, 'px'],
-        minSize: [100, 100, 'px'],
-    });
-});

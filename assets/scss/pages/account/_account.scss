@@ -330,5 +330,25 @@
                 text-transform: uppercase;
             }
         }
+
+        .pricing-area {
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: $bgTwo;
+
+            label {
+                font-size: 14px;
+            }
+
+            .per-unit {
+                display: block;
+            }
+
+            .per-weight {
+                display: none;
+            }
+
+        }
     }
 }

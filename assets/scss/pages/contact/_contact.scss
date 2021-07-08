@@ -1,0 +1,27 @@
+.contact-form {
+    margin-bottom: 50px;
+
+    form {
+        button {
+            display: block;
+            width: 500px;
+            max-width: 500px;
+            padding: 5px;
+            border: 0;
+            border-radius: 5px;
+            background-color: $primary-color;
+            color: $white;
+            text-transform: capitalize;
+        }
+    }
+
+    .sidemap {
+        a {
+            color: $primary-color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

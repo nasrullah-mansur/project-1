@@ -267,7 +267,7 @@ ul {
 .header .content .register a {
   padding: 5px;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   color: #ffffff;
 }
@@ -1765,4 +1765,47 @@ ul {
   padding: 5px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.account-wrapper .add-business .pricing-area {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #F2F2F2;
+}
+
+.account-wrapper .add-business .pricing-area label {
+  font-size: 14px;
+}
+
+.account-wrapper .add-business .pricing-area .per-unit {
+  display: block;
+}
+
+.account-wrapper .add-business .pricing-area .per-weight {
+  display: none;
+}
+
+.contact-form {
+  margin-bottom: 50px;
+}
+
+.contact-form form button {
+  display: block;
+  width: 500px;
+  max-width: 500px;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #00937F;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.contact-form .sidemap a {
+  color: #00937F;
+}
+
+.contact-form .sidemap a:hover {
+  text-decoration: underline;
 }

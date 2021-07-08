@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/all.min.css" />
         <link rel="stylesheet" href="assets/plugins/summernote/summernote-bs4.min.css" />
-        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <link href="assets/css/select-2.min.css" rel="stylesheet" />
 
         <!-- Main CSS -->
         <link rel="stylesheet" href="assets/css/style.css" />
@@ -184,31 +184,31 @@
                             <aside class="left-menu is-sticky">
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="profile.html">
                                             <span>Account</span>
                                             <span>profile</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="analytic.html">
                                             <span>view</span>
                                             <span>analytic</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="manage-business.html">
                                             <span>manage</span>
                                             <span>business</span>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
+                                    <li class="active">
+                                        <a href="manage-product.html">
                                             <span>manage</span>
                                             <span>product</span>
                                         </a>
                                     </li>
-                                    <li class="active">
-                                        <a href="#">
+                                    <li>
+                                        <a href="my-deals.html">
                                             <span>manage</span>
                                             <span>deals</span>
                                         </a>
@@ -228,7 +228,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <a href="#" class="faq-link">Frequently Asked Questions</a>
+                                <a href="faq.html" class="faq-link">Frequently Asked Questions</a>
                             </aside>
                         </div>
                         <div class="col-lg-10">
@@ -301,19 +301,75 @@
                                         <div class="col-12">
                                             <div class="form-group form-check">
                                                 <h6>Pricing</h6>
-                                                <input name="price" type="radio" class="form-check-input" id="p-1" />
-                                                <label class="form-check-label" for="p-1">Price By Weight</label>
-                                                <input name="price" type="radio" class="form-check-input" id="p-2" />
+                                                <input value="per-unit" name="price" checked type="radio" class="form-check-input" id="p-2" />
                                                 <label class="form-check-label" for="p-2">Price By Unit </label>
+                                                <input value="per-weight" name="price" type="radio" class="form-check-input" id="p-1" />
+                                                <label class="form-check-label" for="p-1">Price By Weight</label>
                                             </div>
                                         </div>
 
-                                        <div class="pricing-area col-12">
+                                        <div class="col-12">
                                             <div class="row">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="per-unit">Price Per Unit</label>
-                                                        <input type="number" class="form-control" id="per-unit" />
+                                                <div class="col-lg-8">
+                                                    <div class="pricing-area">
+                                                        <div class="per-unit">
+                                                            <div class="form-group">
+                                                                <label for="per-unit">Price Per Unit</label>
+                                                                <input type="number" class="form-control" id="per-unit" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="per-weight">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="half-p">Half Gram Price</label>
+                                                                        <input type="number" class="form-control" id="half-p" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-2">One Gram Price</label>
+                                                                        <input type="number" class="form-control" id="price-2" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-3">Two Gram Price</label>
+                                                                        <input type="number" class="form-control" id="price-3" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-4">Three Gram Price</label>
+                                                                        <input type="number" class="form-control" id="price-4" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-5">Eighth Ounce Price</label>
+                                                                        <input type="number" class="form-control" id="price-5" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-6">Quarter Ounce Price</label>
+                                                                        <input type="number" class="form-control" id="price-6" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-7">Half Ounce Price</label>
+                                                                        <input type="number" class="form-control" id="price-7" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="price-8">One Ounce Price</label>
+                                                                        <input type="number" class="form-control" id="price-8" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -476,10 +532,8 @@
         <script src="assets/js/sticksy.min.js"></script>
         <script src="assets/plugins/summernote/summernote-bs4.min.js"></script>
         <script src="assets/js/cropzee.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/BossBele/cropzee@v2.0/dist/cropzee.js" defer></script>
-        <script src="https://cdn.jsdelivr.net/gh/cowboy/jquery-throttle-debounce/jquery.ba-throttle-debounce.js" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        <script src="assets/js/debounce.js"></script>
+        <script src="assets/js/select-2.min.js"></script>
         <script src="assets/js/custom.js"></script>
-        <!-- Chart js -->
     </body>
 </html>
