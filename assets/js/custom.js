@@ -59,7 +59,8 @@ $(document).ready(function () {
         });
     }
 
-    // $('.select')
-    $('.select-2').select2();
+    if($('.select-2').length > 0) {
+        $('.select-2').select2();
+    }
 });
 

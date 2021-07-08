@@ -1,546 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Account</title>
+        <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/all.min.css" />
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Header start -->
+        <header class="header">
+            <div class="container">
+                <div class="content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="brand logo" />
+                        </a>
+                    </div>
+                    <div class="location">
+                        <button id="location-search">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>feargus, On</span>
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                        <div class="search-mega border">
+                            <div class="heading">
+                                <div class="search">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <input type="search" placeholder="Search by City" />
+                                </div>
+                                <a href="#">
+                                    <i class="fas fa-location-arrow"></i>
+                                    <span>Determine Location</span>
+                                </a>
+                            </div>
+                            <div class="body">
+                                <ul>
+                                    <li>
+                                        <a href="#">item one</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item three</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item four</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item five</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item six</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item seven</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item eight</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item nine</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item ten</a>
+                                    </li>
 
-    <!-- Header start -->
-    <header class="header">
-        <div class="container">
-            <div class="content">
+                                    <li>
+                                        <a href="#">item one</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item three</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item four</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item five</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item six</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item seven</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item eight</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item nine</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item ten</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">item one</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item three</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item four</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item five</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item six</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item seven</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item eight</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item nine</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item ten</a>
+                                    </li>
+                                </ul>
+                                <a class="more-btn" href="#">Show more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <form>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search brand, Product and more" />
+                                <div class="input-group-append">
+                                    <button class="btn" type="button" id="button-addon2">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="register">
+                        <a href="login.html">log in</a>
+                        <a href="register.html">register</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="page-overlay"></div>
+        <!-- Header end -->
+
+        <div class="account-wrapper">
+            <div class="account">
+                <div class="page-title">
+                    <div class="col-lg-10 ml-auto">
+                        <p>Manage Your Account</p>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div class="row m-0">
+                        <div class="col-lg-2 border-right">
+                            <aside class="left-menu is-sticky">
+                                <ul>
+                                    <li class="active">
+                                        <a href="#">
+                                            <span>Account</span>
+                                            <span>profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>view</span>
+                                            <span>analytic</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>manage</span>
+                                            <span>business</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>manage</span>
+                                            <span>product</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>manage</span>
+                                            <span>deals</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>manage</span>
+                                            <span>business</span>
+                                            <span>review</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>manage</span>
+                                            <span>product</span>
+                                            <span>review</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="faq-link">Frequently Asked Questions</a>
+                            </aside>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="account-text col-lg-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="username">Display Name</label>
+                                        <input type="text" class="form-control" id="username" placeholder="Display name" />
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="f-name">First Name</label>
+                                                <input type="text" class="form-control" id="f-name" placeholder="First name" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="l-name">Last Name</label>
+                                                <input type="text" class="form-control" id="l-name" placeholder="Last name" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birthday">Birthday</label>
+                                        <input type="date" class="form-control" id="birthday" placeholder="Last name" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mr-sm-2" for="province">Province</label>
+                                        <select class="custom-select mr-sm-2" id="province">
+                                            <option selected>Choose...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mr-sm-2" for="region">Region</label>
+                                        <select class="custom-select mr-sm-2" id="region">
+                                            <option selected>Choose...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="agree" />
+                                        <label class="form-check-label" for="agree">
+                                            I agree to receive offers for cannabis deals and emails regarding contests and giveaways from Leafythings.
+                                            <br />
+                                            I understand that I can unsubscribe at any time.
+                                        </label>
+                                    </div>
+
+                                    <div class="mail-preferences" id="mail-preferences">
+                                        <p class="mt-0">Mail Preferences (select all that apply)</p>
+                                        <p>Whats your preferred method of consuming cannabis?</p>
+                                        <ul>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-1" />
+                                                    <label class="form-check-label" for="item-1">One</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-2" />
+                                                    <label class="form-check-label" for="item-2">Two</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-3" />
+                                                    <label class="form-check-label" for="item-3">Three</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-4" />
+                                                    <label class="form-check-label" for="item-4">Four</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-5" />
+                                                    <label class="form-check-label" for="item-5">Five</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-6" />
+                                                    <label class="form-check-label" for="item-6">Six</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-7" />
+                                                    <label class="form-check-label" for="item-7">Seven</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-8" />
+                                                    <label class="form-check-label" for="item-8">Eight</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-9" />
+                                                    <label class="form-check-label" for="item-9">Nine</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <p>What do you typically use cannabis for?</p>
+                                        <ul>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-01" />
+                                                    <label class="form-check-label" for="item-01">One</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-02" />
+                                                    <label class="form-check-label" for="item-02">Two</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-03" />
+                                                    <label class="form-check-label" for="item-03">Three</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-04" />
+                                                    <label class="form-check-label" for="item-04">Four</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-05" />
+                                                    <label class="form-check-label" for="item-05">Five</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-06" />
+                                                    <label class="form-check-label" for="item-06">Six</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-07" />
+                                                    <label class="form-check-label" for="item-07">Seven</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-08" />
+                                                    <label class="form-check-label" for="item-08">Eight</label>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="item-09" />
+                                                    <label class="form-check-label" for="item-09">Nine</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <button>submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer start -->
+        <footer class="footer mt-0">
+            <div class="container">
                 <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-2.png" alt="logo" />
+                    </a>
+                    <br />
+                    <a href="#" data-toggle="modal" data-target="#issue" class="report">report an issue</a>
+                </div>
+                <nav class="list">
+                    <ul class="justify-content-around">
+                        <li><a href="index.html">All Categories</a></li>
+                        <li><a href="mail-order.html">Mail Orders</a></li>
+                        <li><a href="delivery.html">Deliveries</a></li>
+                        <li><a href="dispensiry.html">Dispensaries</a></li>
+                        <li><a href="doctor.html">Doctors</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                    </ul>
+                </nav>
+                <div class="social">
                     <a href="#">
-                        <img src="assets/images/logo.png" alt="brand logo">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter-square"></i>
                     </a>
                 </div>
-                <div class="location">
-                    <button id="location-search">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>feargus, On</span>
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                    <div class="search-mega border">
-                        <div class="heading">
-                            <div class="search">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <input type="search" placeholder="Search by City">
+
+                <div class="app">
+                    <a href="#">
+                        <img src="assets/images/app-1.png" alt="app" />
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/app-2.png" alt="app" />
+                    </a>
+                </div>
+                <nav class="list">
+                    <ul class="justify-content-center">
+                        <li><a href="faq.html">Frequently Asked Questions</a></li>
+                        <li><a href="tearms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                    </ul>
+                </nav>
+                <div class="links">
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                    <a href="#">Weed Delivery Toronto</a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; Leafythings Canada 2021. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+        <!-- Issue modal start -->
+        <div class="modal fade" id="issue" tabindex="-1" aria-labelledby="issue-title" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="issue-title">Report an Issue</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="issue_1">What is the issue?</label>
+                                <textarea class="form-control" id="issue_1" rows="3"></textarea>
                             </div>
-                            <a href="#">
-                                <i class="fas fa-location-arrow"></i>
-                                <span>Determine Location</span>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <ul>
-                                <li>
-                                    <a href="#">item one</a>
-                                </li>
-                                <li>
-                                    <a href="#">item two</a>
-                                </li>
-                                <li>
-                                    <a href="#">item three</a>
-                                </li>
-                                <li>
-                                    <a href="#">item four</a>
-                                </li>
-                                <li>
-                                    <a href="#">item five</a>
-                                </li>
-                                <li>
-                                    <a href="#">item six</a>
-                                </li>
-                                <li>
-                                    <a href="#">item seven</a>
-                                </li>
-                                <li>
-                                    <a href="#">item eight</a>
-                                </li>
-                                <li>
-                                    <a href="#">item nine</a>
-                                </li>
-                                <li>
-                                    <a href="#">item ten</a>
-                                </li>
-                                
-                                <li>
-                                    <a href="#">item one</a>
-                                </li>
-                                <li>
-                                    <a href="#">item two</a>
-                                </li>
-                                <li>
-                                    <a href="#">item three</a>
-                                </li>
-                                <li>
-                                    <a href="#">item four</a>
-                                </li>
-                                <li>
-                                    <a href="#">item five</a>
-                                </li>
-                                <li>
-                                    <a href="#">item six</a>
-                                </li>
-                                <li>
-                                    <a href="#">item seven</a>
-                                </li>
-                                <li>
-                                    <a href="#">item eight</a>
-                                </li>
-                                <li>
-                                    <a href="#">item nine</a>
-                                </li>
-                                <li>
-                                    <a href="#">item ten</a>
-                                </li>
-                                
-                                <li>
-                                    <a href="#">item one</a>
-                                </li>
-                                <li>
-                                    <a href="#">item two</a>
-                                </li>
-                                <li>
-                                    <a href="#">item three</a>
-                                </li>
-                                <li>
-                                    <a href="#">item four</a>
-                                </li>
-                                <li>
-                                    <a href="#">item five</a>
-                                </li>
-                                <li>
-                                    <a href="#">item six</a>
-                                </li>
-                                <li>
-                                    <a href="#">item seven</a>
-                                </li>
-                                <li>
-                                    <a href="#">item eight</a>
-                                </li>
-                                <li>
-                                    <a href="#">item nine</a>
-                                </li>
-                                <li>
-                                    <a href="#">item ten</a>
-                                </li>
-                                
-                            </ul>
-                            <a class="more-btn" href="#">Show more <i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="search">
-                    <form>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                </div>
-                            <input type="text" class="form-control" placeholder="Search brand, Product and more">
-                            <div class="input-group-append">
-                                <button class="btn" type="button" id="button-addon2">Search</button>
+                            <div class="form-group">
+                                <label for="issue_2">What were you doing when the error occurred?</label>
+                                <textarea class="form-control" id="issue_2" rows="3"></textarea>
                             </div>
-                    </form>
-                </div>
-            </div>
-            <div class="register">
-                <a href="#">log in</a>
-                <a href="#">register</a>
-            </div>
-        </div>
-    </header>
-    <div class="page-overlay"></div>
-    <!-- Header end -->
-    
-    <div class="account-wrapper">
-        <div class="account">
-            <div class="page-title">
-                <div class="col-lg-10 ml-auto">
-                    <p>Manage Your Account</p>
-                </div>
-            </div>
-            <div class="page-content">
-                <div class="row m-0">
-                    <div class="col-lg-2 border-right">
-                        <aside class="left-menu is-sticky">
-                            <ul>
-                                <li class="active">
-                                    <a href="#">
-                                        <span>Account</span>
-                                        <span>profile</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>view</span>
-                                        <span>analytic</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>manage</span>
-                                        <span>business</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>manage</span>
-                                        <span>product</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>manage</span>
-                                        <span>deals</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>manage</span>
-                                        <span>business</span>
-                                        <span>review</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>manage</span>
-                                        <span>product</span>
-                                        <span>review</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="#" class="faq-link">Frequently Asked Questions</a>
-                        </aside>
+                            <div class="form-group">
+                                <label for="issue_3">What page were you viewing?</label>
+                                <textarea class="form-control" id="issue_3" rows="3"></textarea>
+                            </div>
+                            <h5>Contact information</h5>
+                            <div class="form-group">
+                                <label for="issue_name">Name</label>
+                                <input type="email" class="form-control" id="issue_name" placeholder="John Doe" />
+                            </div>
+                            <div class="form-group">
+                                <label for="issue_email">Email</label>
+                                <input type="email" class="form-control" id="issue_email" placeholder="name@example.com" />
+                            </div>
+                        </form>
                     </div>
-                    <div class="col-lg-10">
-                        <div class="account-text col-lg-6">
-                            <form>
-                                <div class="form-group">
-                                    <label for="username">Display Name</label>
-                                    <input type="text" class="form-control" id="username" placeholder="Display name">
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="f-name">First Name</label>
-                                            <input type="text" class="form-control" id="f-name" placeholder="First name">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="l-name">Last Name</label>
-                                            <input type="text" class="form-control" id="l-name" placeholder="Last name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="birthday">Birthday</label>
-                                    <input type="date" class="form-control" id="birthday" placeholder="Last name">
-                                </div>
-                                <div class="form-group">
-                                    <label class="mr-sm-2" for="province">Province</label>
-                                    <select class="custom-select mr-sm-2" id="province">
-                                      <option selected>Choose...</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label class="mr-sm-2" for="region">Region</label>
-                                    <select class="custom-select mr-sm-2" id="region">
-                                      <option selected>Choose...</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="agree">
-                                    <label class="form-check-label" for="agree">I agree to receive offers for cannabis deals and emails regarding contests and giveaways from Leafythings.
-                                        <br>
-                                        I understand that I can unsubscribe at any time.
-                                    </label>
-                                </div>
-                               
-                                <div class="mail-preferences" id="mail-preferences">
-                                    <p class="mt-0">Mail Preferences (select all that apply)</p>
-                                    <p>Whats your preferred method of consuming cannabis?</p>
-                                    <ul>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-1">
-                                                <label class="form-check-label" for="item-1">One</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-2">
-                                                <label class="form-check-label" for="item-2">Two</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-3">
-                                                <label class="form-check-label" for="item-3">Three</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-4">
-                                                <label class="form-check-label" for="item-4">Four</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-5">
-                                                <label class="form-check-label" for="item-5">Five</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-6">
-                                                <label class="form-check-label" for="item-6">Six</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-7">
-                                                <label class="form-check-label" for="item-7">Seven</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-8">
-                                                <label class="form-check-label" for="item-8">Eight</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-9">
-                                                <label class="form-check-label" for="item-9">Nine</label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <p>What do you typically use cannabis for?</p>
-                                    <ul>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-01">
-                                                <label class="form-check-label" for="item-01">One</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-02">
-                                                <label class="form-check-label" for="item-02">Two</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-03">
-                                                <label class="form-check-label" for="item-03">Three</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-04">
-                                                <label class="form-check-label" for="item-04">Four</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-05">
-                                                <label class="form-check-label" for="item-05">Five</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-06">
-                                                <label class="form-check-label" for="item-06">Six</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-07">
-                                                <label class="form-check-label" for="item-07">Seven</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-08">
-                                                <label class="form-check-label" for="item-08">Eight</label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="form-group form-check">
-                                                <input type="checkbox" class="form-check-input" id="item-09">
-                                                <label class="form-check-label" for="item-09">Nine</label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <button>submit</button>
-                            </form>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn">Send Report</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Issue modal end -->
 
-<!-- Footer start -->
-<footer class="footer mt-0">
-    <div class="container">
-        <div class="logo">
-            <a href="#">
-                <img src="assets/images/logo-2.png" alt="logo">
-            </a>
-            <br>
-            <a href="#" data-toggle="modal" data-target="#issue" class="report">report an issue</a>
-        </div>
-        <nav class="list">
-            <ul class="justify-content-around">
-                <li><a href="#">All Categories</a></li>
-                <li><a href="#">Mail Orders</a></li>
-                <li><a href="#">Deliveries</a></li>
-                <li><a href="#">Dispensaries</a></li>
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Deals</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-            <a href="#">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-twitter-square"></i>
-            </a>
-        </div>
-
-        <div class="app">
-            <a href="#">
-                <img src="assets/images/app-1.png" alt="app">
-            </a>
-            <a href="#">
-                <img src="assets/images/app-2.png" alt="app">
-            </a>
-        </div>
-        <nav class="list">
-            <ul class="justify-content-center">
-                <li><a href="#">All Categories</a></li>
-                <li><a href="#">Mail Orders</a></li>
-                <li><a href="#">Deliveries</a></li>
-                <li><a href="#">Dispensaries</a></li>
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Deals</a></li>
-            </ul>
-        </nav>
-        <div class="links">
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-            <a href="#">Weed Delivery Toronto</a>
-        </div>
-        <div class="copyright">
-            <p>&copy; Leafythings Canada 2021. All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
-<!-- Footer end -->
-
-<!-- Issue modal start -->
-<div class="modal fade" id="issue" tabindex="-1" aria-labelledby="issue-title" aria-hidden="true">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="issue-title">Report an Issue</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="modal-body">
-      <form>
-        <div class="form-group">
-            <label for="issue_1">What is the issue?</label>
-            <textarea class="form-control" id="issue_1" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="issue_2">What were you doing when the error occurred?</label>
-            <textarea class="form-control" id="issue_2" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="issue_3">What page were you viewing?</label>
-            <textarea class="form-control" id="issue_3" rows="3"></textarea>
-          </div>
-          <h5>Contact information</h5>
-          <div class="form-group">
-            <label for="issue_name">Name</label>
-            <input type="email" class="form-control" id="issue_name" placeholder="John Doe">
-          </div>
-          <div class="form-group">
-            <label for="issue_email">Email</label>
-            <input type="email" class="form-control" id="issue_email" placeholder="name@example.com">
-          </div>
-      </form>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn">Send Report</button>
-    </div>
-  </div>
-</div>
-</div>
-<!-- Issue modal end -->
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.2.2.4.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/sticksy.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-</body>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.2.2.4.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/sticksy.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
 </html>
