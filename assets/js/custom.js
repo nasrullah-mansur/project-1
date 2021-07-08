@@ -73,6 +73,17 @@ $(document).ready(function () {
 
     $('[name="price"]').on('change', function() {
         $('.pricing-area .per-unit, .pricing-area .per-weight').slideToggle();
-    })
+    });
+
+    if($('#move-to-review').length > 0) {
+        let reviewOffset = $('#myTabContent').offset().top;
+        $('#move-to-review').on('click', function() {
+            $('html, body').animate({
+                scrollTop: reviewOffset - 100,
+            });
+            $('#myTab .nav-link').removeClass('active');
+        });
+    }
+
 });
 

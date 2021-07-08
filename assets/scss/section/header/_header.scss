@@ -52,7 +52,8 @@
         }
 
         .register {
-            a {
+            > a,
+            .dropdown-toggle {
                 padding: 5px;
                 margin-left: 10px;
                 font-weight: 500;

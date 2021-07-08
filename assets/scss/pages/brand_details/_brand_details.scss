@@ -463,3 +463,102 @@
         }
     }
 }
+
+// rating modal;
+#rating {
+    .modal-dialog {
+        padding: 30px;
+
+        .modal-title {
+            font-weight: 600;
+        }
+        
+        .modal-footer {
+            button {
+                background-color: $primary-color;
+                color: $white;
+
+                &:first-child {
+                    background-color: $hover-color;
+                }
+            }
+        }
+    }
+}
+
+// Ratting;
+.custom-rating {
+    display: block;
+    margin: 10px 0;
+
+    .rating-wrapper {
+        position: relative;
+        display: inline-block;
+        margin-top: 20px;
+
+        .rating-input {
+            position: absolute;
+            left: -9999px;
+            top: auto;
+        }
+    }
+
+    .rating-star, 
+    .rating:hover .rating-star {
+        width: 45px;
+        float: right;
+        display: block;
+        cursor: pointer;
+        color: $border-color;
+    }
+
+    label i {
+        font-size: 35px;
+        text-align: center;
+        color: inherit;
+    }
+
+    label span {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0 1px $black;
+        transition: margin 0.6s, opacity .6s;
+        border-radius: 3px;
+        white-space: nowrap;
+        position: absolute;
+        padding: 5px 10px;
+        font-weight: 400;
+        background: $bgTwo;
+        font-size: 14px;
+        margin-left: -5px;
+        margin-bottom: 15px;
+        display: block;
+        left: -9999px;
+        color: $bColor;
+        opacity: 0;
+        z-index: 10;
+
+
+        &::before {
+            content: '';
+            position: absolute;
+            border-top: 4px solid $bgTwo;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+            left: 8px;
+            top: 100%;
+        }
+    }
+
+    &:hover .rating-star:hover, 
+    &:hover .rating-star:hover ~ .rating-star, 
+    .rating-input:checked ~ .rating-star {
+        color: $yellow;
+    }
+
+    label:hover span {
+        bottom: 100%;
+        opacity: 1;
+        left: auto;
+        margin-bottom: 5px;
+    }
+}

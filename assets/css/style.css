@@ -264,7 +264,8 @@ ul {
   color: #ffffff;
 }
 
-.header .content .register a {
+.header .content .register > a,
+.header .content .register .dropdown-toggle {
   padding: 5px;
   margin-left: 10px;
   font-weight: 500;
@@ -1269,6 +1270,99 @@ ul {
 #deals .deals-text .item .text p {
   margin-bottom: 5px;
   text-transform: uppercase;
+}
+
+#rating .modal-dialog {
+  padding: 30px;
+}
+
+#rating .modal-dialog .modal-title {
+  font-weight: 600;
+}
+
+#rating .modal-dialog .modal-footer button {
+  background-color: #00937F;
+  color: #ffffff;
+}
+
+#rating .modal-dialog .modal-footer button:first-child {
+  background-color: #ff7546;
+}
+
+.custom-rating {
+  display: block;
+  margin: 10px 0;
+}
+
+.custom-rating .rating-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.custom-rating .rating-wrapper .rating-input {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+
+.custom-rating .rating-star,
+.custom-rating .rating:hover .rating-star {
+  width: 45px;
+  float: right;
+  display: block;
+  cursor: pointer;
+  color: #ced4da;
+}
+
+.custom-rating label i {
+  font-size: 35px;
+  text-align: center;
+  color: inherit;
+}
+
+.custom-rating label span {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 1px #000000;
+  -webkit-transition: margin 0.6s, opacity .6s;
+  transition: margin 0.6s, opacity .6s;
+  border-radius: 3px;
+  white-space: nowrap;
+  position: absolute;
+  padding: 5px 10px;
+  font-weight: 400;
+  background: #F2F2F2;
+  font-size: 14px;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  display: block;
+  left: -9999px;
+  color: #343a40;
+  opacity: 0;
+  z-index: 10;
+}
+
+.custom-rating label span::before {
+  content: '';
+  position: absolute;
+  border-top: 4px solid #F2F2F2;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  left: 8px;
+  top: 100%;
+}
+
+.custom-rating:hover .rating-star:hover,
+.custom-rating:hover .rating-star:hover ~ .rating-star,
+.custom-rating .rating-input:checked ~ .rating-star {
+  color: #ffd241;
+}
+
+.custom-rating label:hover span {
+  bottom: 100%;
+  opacity: 1;
+  left: auto;
+  margin-bottom: 5px;
 }
 
 .auth-wrapper {
