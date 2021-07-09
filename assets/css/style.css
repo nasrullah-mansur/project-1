@@ -1608,7 +1608,13 @@ ul {
 }
 
 .auth-wrapper .mail-preferences ul li {
-  margin-right: 25px;
+  width: calc(100% / 3);
+}
+
+@media (max-width: 767.98px) {
+  .auth-wrapper .mail-preferences ul li {
+    width: calc(100% / 2);
+  }
 }
 
 .auth-wrapper .mail-preferences .form-check {
@@ -1778,6 +1784,12 @@ ul {
 
 .account-wrapper .account-text .mail-preferences ul li {
   width: calc(100% / 3);
+}
+
+@media (max-width: 767.98px) {
+  .account-wrapper .account-text .mail-preferences ul li {
+    width: calc(100% / 2);
+  }
 }
 
 .account-wrapper .account-text .mail-preferences .form-check {

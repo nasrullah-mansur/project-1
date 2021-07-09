@@ -135,6 +135,10 @@
 
                 li {
                     width: calc(100% / 3);
+
+                    @media (max-width: 767.98px) {
+                        width: calc(100% / 2);
+                    }
                 }
             }
 
