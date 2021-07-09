@@ -17,8 +17,17 @@
             margin: 30px auto;
             background-color: $white;
 
+            @media (max-width: 767.98px) {
+                padding: 30px;
+            }
+
             &.register {
                 padding: 30px 50px;
+                
+                @media (max-width: 767.98px) {
+                    padding: 30px;
+                    
+                }
             }
 
             h1 {
@@ -131,7 +140,7 @@
         font-weight: 600;
 
         p {
-            text-align-last: left;
+            text-align: left !important;
             margin-top: 10px;
             margin-bottom: 0;
             font-size: 14px !important;
@@ -142,8 +151,9 @@
             flex-wrap: wrap;
 
             li {
-                width: calc(100% / 3);
+                margin-right: 25px;
             }
+
         }
 
         .form-check {

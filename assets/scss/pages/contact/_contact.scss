@@ -12,6 +12,10 @@
             background-color: $primary-color;
             color: $white;
             text-transform: capitalize;
+
+            @media (max-width: 540px) {
+                max-width: 220px;
+            }
         }
     }
 

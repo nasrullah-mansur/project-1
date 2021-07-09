@@ -18,6 +18,29 @@ $(document).ready(function () {
             slidesToScroll: 1,
             prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+            responsive: [
+                {
+                  breakpoint: 991.98,
+                  settings: {
+                    slidesToShow: 4,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 767.98,
+                  settings: {
+                    slidesToShow: 3,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 2,
+                    arrows: false
+                  }
+                }
+              ]
         });
     }
 
@@ -28,6 +51,29 @@ $(document).ready(function () {
             slidesToScroll: 1,
             prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+            responsive: [
+                {
+                  breakpoint: 991.98,
+                  settings: {
+                    slidesToShow: 4,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 767.98,
+                  settings: {
+                    slidesToShow: 3,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 2,
+                    arrows: false
+                  }
+                }
+              ]
         });
     }
 
